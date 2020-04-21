@@ -1,0 +1,159 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  word-break: break-all;
+}
+
+body {
+  background-color: #d7ccc8;
+  position: absolute;
+}
+
+.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  box-shadow: 1px 2px #000000;
+  margin-bottom: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #757575;
+  border-color: #757575;
+  box-shadow: 1px 2px #000000;
+}
+
+.btn-primary:focus {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.smalltext {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: 'Pacifico', sans-serif;
+  border-left: 1.3rem;
+  border-bottom: 6.3rem;
+  word-break: break-all;
+}
+
+p {
+  color: #212121;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.guestbook {
+  background: url(images/coffee-beans.jpg) no-repeat center center fixed;
+}
+
+h1.wrapper {
+  padding: 1rem 0 2rem 0;
+}
+
+.gblogo {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-top: 2rem;
+}
+
+.rating {
+  display: inline-flex;
+}
+
+.rating__element {
+  margin-right: 1.5rem;
+}
+
+textarea {
+  width: 50%;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.subject,
+#subject {
+  width: 50%;
+}
+
+.subject {
+  margin: 1.5rem 0;
+}
+
+#guestbook_main {
+  padding: 3rem;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 4rem;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  color: #000000;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.framed {
+  border-style: outset;
+  border-color: #4caf50;
+  padding: 1rem 0 2rem 1rem;
+}
+
+footer {
+  display: block;
+  background-color: #5d4037;
+  height: absolute;
+  padding: 1rem 0 1rem 0;
+}
+
+.boxbg {
+  background-color: #bdbdbd;
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  box-shadow: 0.1rem 0.1rem #000000;
+}
+
+#preview {
+  background-color: #bdbdbd;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.preview__title {
+  font-style: italic;
+  color: #212121;
+}
+
+.preview__txt {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #212121;
+  margin: 0.2rem 0.2rem 0.2rem 1rem;
+}
