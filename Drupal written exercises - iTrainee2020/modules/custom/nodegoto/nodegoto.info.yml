@@ -1,0 +1,4 @@
+name: Nodegoto
+type: module
+description: Redirect to a node by the given ID
+core: 8.x

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Drupal's mail API for subscribe module.
+ */
+
+/**
+ * Implements hook_mail().
+ */
+function subscribe_mail($key, &$message, $params) {
+  $options = [
+    'langcode' => $message['langcode'],
+  ];
+
+  switch ($key) {
+    case 'contact_message':
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+      $message['subject'] = \Drupal::config('subscribe.settings')->get('subject');
+      $message['body'] = strtr(\Drupal::config('subscribe.settings')->get('body'), '[email]', $params['email']);
+      break;
+  }
+
+}

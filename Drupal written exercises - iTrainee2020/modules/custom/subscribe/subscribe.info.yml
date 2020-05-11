@@ -1,0 +1,4 @@
+name: Subscribe
+type: module
+description: Send a notification to the administrator if a visitor subscribes.
+core: 8.x

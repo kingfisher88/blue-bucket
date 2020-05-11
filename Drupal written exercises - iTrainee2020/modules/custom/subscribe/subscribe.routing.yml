@@ -1,0 +1,7 @@
+subscribe.admin_config_subscribe:
+  path: /admin/config/subscribe
+  defaults:
+    _form: '\Drupal\subscribe\Form\SubscribeSettingsForm'
+    _title: "Subscribe"
+  requirements:
+    _permission: "administer subscribe configuration"

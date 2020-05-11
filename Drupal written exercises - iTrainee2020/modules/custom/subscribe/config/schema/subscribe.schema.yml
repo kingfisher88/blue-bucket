@@ -1,0 +1,13 @@
+subscribe.settings:
+  type: config_object
+  label: "Administrator-configurable email"
+  mapping:
+    to:
+      type: email
+      label: "Email adress"
+    subject:
+      type: string
+      label: "Subject of the email"
+    body:
+      type: string
+      label: "Text of the email"

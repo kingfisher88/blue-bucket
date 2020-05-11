@@ -1,0 +1,6 @@
+subscribe.admin_config_subscribe:
+  title: "Subscribe"
+  description: "Manage email settings."
+  route_name: subscribe.admin_config_subscribe
+  parent: system.admin_config
+  weight: 100
